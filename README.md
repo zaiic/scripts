@@ -1,0 +1,2 @@
+# scripts
+Personal scripts repository.
