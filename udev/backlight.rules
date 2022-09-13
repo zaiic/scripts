@@ -1,0 +1,5 @@
+# Allow users can change the brightness.
+# Complete the following changes and add the user (maybe the current user) into the "video" group.
+
+ACTION=="add", SUBSYSTEM=="backlight" KERNEL=="{vendor-specific-name}", RUN+="/bin/chgrp video /sys/class/backlight/intel_backlight/brightness"
+ACTION=="add", SUBSYSTEM=="backlight" KERNEL=="{vendor-specific-name}", RUN+="/bin/chmod g+w /sys/class/backlight/intel_backlight/brightness"
