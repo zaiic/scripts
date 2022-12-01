@@ -1,1 +1,1 @@
-## Fork from *SimpleFox*
+## Fork from *Ruixi-rebirth/dotfiles/chrome*
